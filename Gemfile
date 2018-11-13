@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.2.1'
-gem 'sass-rails', '~> 5.0'
+gem 'rails'
+gem 'sass-rails'
 gem 'jquery-rails'
 gem 'pg'
 gem 'slim-rails'
 gem 'codemirror-rails'
-gem 'json', '~> 1.8.3'
+gem 'json'
 
 group :development, :test do
   gem 'dotenv-rails'
